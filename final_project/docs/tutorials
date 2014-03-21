@@ -1,0 +1,28 @@
+threshold metrics
+
+acc   http://stackoverflow.com/questions/17590105/how-to-find-the-precision-recall-accuracy-using-svm
+      http://datamin.ubbcluj.ro/wiki/index.php/Evaluation_methods_in_text_categorization
+fsc   http://en.wikipedia.org/wiki/F1_score
+lift    http://en.wikipedia.org/wiki/Lift_(data_mining)
+
+
+
+ordering/rank metrics
+
+auc/roc     https://www.kaggle.com/wiki/AreaUnderCurve
+MAMP@K/AP@K http://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/
+            http://fastml.com/what-you-wanted-to-know-about-mean-average-precision/
+            https://github.com/benhamner/Metrics/tree/master/MATLAB/metrics
+
+break even point (BEP) http://www.cs.cornell.edu/courses/cs578/2003fa/performance_measures.pdf
+
+
+
+Probability Metrics 
+
+
+RMS        https://github.com/benhamner/Metrics/tree/master/MATLAB/metrics
+
+
+Python ML Library
+http://scikit-learn.org/stable/modules/model_evaluation.html
