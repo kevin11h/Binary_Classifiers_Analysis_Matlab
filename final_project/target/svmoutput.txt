@@ -1,0 +1,180 @@
+>> final_project
+
+classifiers = 
+
+    'svm'
+
+
+Finding model for letterp2.data...
+
+	Cross-validation SVM model...
+		Fitting SVM linear, polynomial{2,3}, and rbf models...
+		Fitting SVM model with C = 1.000000e-02...
+Cross Validation Accuracy = 73.42%
+Cross Validation Accuracy = 82.14%
+Cross Validation Accuracy = 89.72%
+Cross Validation Accuracy = 58.28%
+Cross Validation Accuracy = 68.78%
+Cross Validation Accuracy = 70.56%
+Cross Validation Accuracy = 50.66%
+Cross Validation Accuracy = 50.66%
+Cross Validation Accuracy = 50.66%
+Cross Validation Accuracy = 50.66%
+Cross Validation Accuracy = 50.66%
+		Fitting SVM model with C = 1.000000e-01...
+Cross Validation Accuracy = 73.56%
+Cross Validation Accuracy = 84.36%
+Cross Validation Accuracy = 91.42%
+Cross Validation Accuracy = 69.52%
+Cross Validation Accuracy = 75.82%
+Cross Validation Accuracy = 80.24%
+Cross Validation Accuracy = 88%
+Cross Validation Accuracy = 90.12%
+Cross Validation Accuracy = 50.66%
+Cross Validation Accuracy = 50.66%
+Cross Validation Accuracy = 50.66%
+		Fitting SVM model with C = 1...
+Cross Validation Accuracy = 73.56%
+Cross Validation Accuracy = 85.1%
+Cross Validation Accuracy = 91.44%
+Cross Validation Accuracy = 74.72%
+Cross Validation Accuracy = 85%
+Cross Validation Accuracy = 88.38%
+Cross Validation Accuracy = 94.62%
+Cross Validation Accuracy = 95.6%
+Cross Validation Accuracy = 87.22%
+Cross Validation Accuracy = 68.84%
+Cross Validation Accuracy = 57.1%
+		Fitting SVM model with C = 10...
+Cross Validation Accuracy = 73.58%
+Cross Validation Accuracy = 85.1%
+Cross Validation Accuracy = 89.34%
+Cross Validation Accuracy = 82.08%
+Cross Validation Accuracy = 89.98%
+Cross Validation Accuracy = 92.62%
+Cross Validation Accuracy = 95.18%
+Cross Validation Accuracy = 95.68%
+Cross Validation Accuracy = 87.62%
+Cross Validation Accuracy = 70.1%
+Cross Validation Accuracy = 58.86%
+
+	Finished Cross-validating SVM model in 2159.177065 secs
+
+Testing optimal svm model...
+Accuracy = 96.7357% (13543/14000) (classification)
+
+Finding model for adult.data...
+
+	Cross-validation SVM model...
+		Fitting SVM linear, polynomial{2,3}, and rbf models...
+		Fitting SVM model with C = 1.000000e-02...
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+		Fitting SVM model with C = 1.000000e-01...
+Cross Validation Accuracy = 84.22%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.36%
+Cross Validation Accuracy = 84.64%
+Cross Validation Accuracy = 84.72%
+		Fitting SVM model with C = 1...
+Cross Validation Accuracy = 84.62%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.38%
+Cross Validation Accuracy = 84.78%
+Cross Validation Accuracy = 84.46%
+Cross Validation Accuracy = 84.08%
+Cross Validation Accuracy = 83.76%
+		Fitting SVM model with C = 10...
+Cross Validation Accuracy = 84.54%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.3%
+Cross Validation Accuracy = 84.22%
+Cross Validation Accuracy = 84.34%
+Cross Validation Accuracy = 84.74%
+Cross Validation Accuracy = 84.36%
+Cross Validation Accuracy = 83.08%
+Cross Validation Accuracy = 83.7%
+Cross Validation Accuracy = 83.8%
+
+	Finished Cross-validating SVM model in 196.924904 secs
+
+Testing optimal svm model...
+Accuracy = 82.2157% (28958/35222) (classification)
+
+Finding model for covtype.data...
+
+	Cross-validation SVM model...
+		Fitting SVM linear, polynomial{2,3}, and rbf models...
+		Fitting SVM model with C = 1.000000e-02...
+Cross Validation Accuracy = 67.28%
+Cross Validation Accuracy = 59.06%
+Cross Validation Accuracy = 51.6%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+		Fitting SVM model with C = 1.000000e-01...
+Cross Validation Accuracy = 66.58%
+Cross Validation Accuracy = 58.4%
+Cross Validation Accuracy = 52%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+		Fitting SVM model with C = 1...
+Cross Validation Accuracy = 64.14%
+Cross Validation Accuracy = 57.48%
+Cross Validation Accuracy = 52.86%
+Cross Validation Accuracy = 53.16%
+Cross Validation Accuracy = 51.4%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+		Fitting SVM model with C = 10...
+Cross Validation Accuracy = 65.14%
+Cross Validation Accuracy = 58.7%
+Cross Validation Accuracy = 50.94%
+Cross Validation Accuracy = 53.54%
+Cross Validation Accuracy = 51.56%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+Cross Validation Accuracy = 51.28%
+
+	Finished Cross-validating SVM model in 17435.553952 secs
+
+Testing optimal svm model...
+Accuracy = 67.068% (16767/25000) (classification)
